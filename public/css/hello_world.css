@@ -17,7 +17,9 @@ h2	{color: #ff02ff
 h2{
 	text-decoration: underline;
 }
-body	{background-color: #b0c4de;
+.background	{
+
+	background-color: #b0c4de;
 }
 ol	{
 	list-style: square;
@@ -25,3 +27,6 @@ ol	{
 ul 	{
 	list-style: lower-roman;
 }
+body { background-image: url("/img/bluecss.jpg");}
+
+body	{ background-repeat: no-repeat;}	
