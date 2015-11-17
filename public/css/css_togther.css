@@ -12,3 +12,10 @@ article h1{
 	#article-subhead {
 		background-color:teal
 	}
+a:link{
+	font-weight:700;
+	background-color:orange;
+}
+a:hover{background-color:white;
+
+}
