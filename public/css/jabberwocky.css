@@ -1,0 +1,39 @@
+html{
+	font-size: 30px;
+}
+
+.george{
+	background-color: red;
+	text-decoration: line-through;
+	font-weight: bolder;
+	font-size: 24px;
+}
+.lewis{
+	text-indent: 100px;
+	font-weight: bolder;
+	font-size: 24px;
+}
+.paragraph{
+	text-indent: 80px;
+	font-weight: light;
+	font-size: 18px;
+}
+.paragraph2{
+	text-align: right;
+	font-weight: light;
+	font-size: 18px;
+}
+.paragraph3{
+	text-indent: 100px;
+	font-weight: light;
+	font-size: 18px;
+}
+a:hover{
+	text-decoration: underline;
+	color: orange;
+}
+a{
+	text-decoration: none;
+	font-family: fantasy;
+	font-size: 90px;
+}

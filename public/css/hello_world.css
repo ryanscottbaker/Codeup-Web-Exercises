@@ -67,3 +67,20 @@ a:hover {
 a:active {
     color:green;
 }
+
+/*The two thing listed below are me trying
+to resize the harley image.*/
+div.harley{
+	content:url("img/Harley Sportster 883R.jpg");
+	height: 100px;
+	width: 100px;
+
+}
+/*This seems to be broken, should change 
+height of harley and add border*/
+img[src="/Harley Sportster 883R.jpg"] 
+{height:50 px;
+width:50px;
+border:	1px solid black}
+
+
