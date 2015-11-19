@@ -1,15 +1,80 @@
 h1{color: #602F95;
    font-weight: bold;
    text-decoration: underline;
-
-}
-h1{
 }
 .redbox {
 background-color: #D84231;
-color: black;	
+color: white;
+font-weight: bolder;
+text-indent: 5px;
 width: 150px;
 height: 50px;
+padding: 10px;
+border-style: solid;
+border-color: black;
+border-width: 1px;
+}
+.orangebox{
+margin: 10px 30px 10px 30px;
+background-color: #EAAE33;
+color: white;
+font-weight: bolder;
+text-indent: 5px;
+width: 150px;
+height: 50px;
+padding: 10px;
+border-style: solid;
+border-color: black;
+border-width: 1px;
+}
+.yellowbox{
+margin: 0px 0px 10px 60px;
+background-color: #FCF733;
+color: white;
+font-weight: bolder;
+text-indent: 5px;
+width: 150px;
+height: 50px;
+padding: 10px;
+border-style: solid;
+border-color: black;
+border-width: 1px;
+}
+.greenbox{
+margin: 0px 0px 10px 90px;
+background-color: #578C05;
+color: white;
+font-weight: bolder;
+text-indent: 5px;
+width: 150px;
+height: 50px;
+padding: 10px;
+border-style: solid;
+border-color: black;
+border-width: 1px;
+}
+.bluebox{
+margin: 0px 0px 10px 120px;
+background-color: #234AFB;
+color: white;
+font-weight: bolder;
+text-indent: 5px;
+width: 150px;
+height: 50px;
+padding: 10px;
+border-style: solid;
+border-color: black;
+border-width: 1px;
+}
+.pinkbox{
+margin: 0px 0px 10px 150px;
+background-color: #DF8BF0;
+color: white;
+font-weight: bolder;
+text-indent: 5px;
+width: 150px;
+height: 50px;
+padding: 10px;
 border-style: solid;
 border-color: black;
 border-width: 1px;
