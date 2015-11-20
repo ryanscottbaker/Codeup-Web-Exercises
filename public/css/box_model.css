@@ -1,9 +1,27 @@
 h1{color: #602F95;
    font-weight: bold;
    text-decoration: underline;
+	animation-duration: 5s;
+	animation-name: slidein;
+	animation-iteration-count: infinite;
 }
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 40%;
+    width: 100%;
+  }
+}
+
 .redbox {
 background-color: #D84231;
+border-radius: 20px;
+text-shadow: 3px 6px 1px #000;
+box-shadow: 10px 10px 5px grey;
 color: white;
 font-weight: bolder;
 text-indent: 5px;
@@ -16,7 +34,10 @@ border-width: 1px;
 }
 .orangebox{
 margin: 10px 30px 10px 30px;
+border-radius: 20px;
 background-color: #EAAE33;
+text-shadow: 3px 6px 1px #000;
+box-shadow: 10px 10px 5px grey;
 color: white;
 font-weight: bolder;
 text-indent: 5px;
@@ -29,7 +50,10 @@ border-width: 1px;
 }
 .yellowbox{
 margin: 0px 0px 10px 60px;
+border-radius: 20px;
 background-color: #FCF733;
+box-shadow: 10px 10px 5px grey;
+text-shadow: 3px 6px 1px #000;
 color: white;
 font-weight: bolder;
 text-indent: 5px;
@@ -42,7 +66,10 @@ border-width: 1px;
 }
 .greenbox{
 margin: 0px 0px 10px 90px;
+border-radius: 20px;
 background-color: #578C05;
+box-shadow: 10px 10px 5px grey;
+text-shadow: 3px 6px 1px #000;
 color: white;
 font-weight: bolder;
 text-indent: 5px;
@@ -55,7 +82,10 @@ border-width: 1px;
 }
 .bluebox{
 margin: 0px 0px 10px 120px;
+border-radius: 20px;
 background-color: #234AFB;
+box-shadow: 10px 10px 5px grey;
+text-shadow: 3px 6px 1px #000;
 color: white;
 font-weight: bolder;
 text-indent: 5px;
@@ -66,9 +96,12 @@ border-style: solid;
 border-color: black;
 border-width: 1px;
 }
-.pinkbox{
+.violetbox{
 margin: 0px 0px 10px 150px;
+border-radius: 20px;
 background-color: #DF8BF0;
+box-shadow: 10px 10px 5px grey;
+text-shadow: 5px 6px 1px #000;
 color: white;
 font-weight: bolder;
 text-indent: 5px;
