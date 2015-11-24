@@ -4,7 +4,7 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-h1{color: #602F95;
+h1 {color: #602F95;
    font-weight: bold;
    text-decoration: underline;
    margin-bottom: 50px
@@ -14,13 +14,11 @@ h1{color: #602F95;
   float: right;
   position: relative;
   left: 8px;
-  bottom: 95px;
+  bottom: 110px;
  }
-
-#container :nth-child(1n+5){
-float: left;
+#container :nth-child(2n+1)
+{clear: left; 
 }
-
 .redbox {
 background-color: #D84231;
 box-shadow: 10px 10px 5px grey;
@@ -67,7 +65,7 @@ border-width: 1px;
 float: left;
 }
 .greenbox{
-margin: 0px 0px 0px 0px;
+margin: 0px 0px 50px 0px;
 background-color: #578C05;
 box-shadow: 10px 10px 5px grey;
 color: white;
@@ -79,11 +77,11 @@ padding: 6px;
 border-style: solid;
 border-color: black;
 border-width: 1px;
-/*float: left;
-*/clear: left;
+float: left;
+/*clear: left;*/
 }
 .bluebox{
-margin: 0px 0px 0px 50px;
+margin: 0px 0px 0px 0px;
 background-color: #234AFB;
 box-shadow: 10px 10px 5px grey;
 color: white;
@@ -95,8 +93,8 @@ padding: 6px;
 border-style: solid;
 border-color: black;
 border-width: 1px;
-/*float: left;
-*/}
+float: left;
+}
 .violetbox{
 margin: 0px 0px 0px 50px;
 background-color: #DF8BF0;
@@ -109,8 +107,9 @@ height: 72px;
 padding: 6px;
 border-style: solid;
 border-color: black;
-/*float: left;
-*/border-width: 1px;
+border-width: 1px;
+float: left;
+
 }
 
 img.codeup1 {

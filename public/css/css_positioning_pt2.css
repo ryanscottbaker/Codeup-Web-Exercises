@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: #602F95;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 50px
+}
+
+img.ribbon {
+  float: right;
+  position: relative;
+  left: 8px;
+  bottom: 95px;
+}
+
+#container div:nth-child(2n+1) {
+  clear: left;
+}
+
+.box {
+  margin: 0px 50px 50px 0px;
+  box-shadow: 10px 10px 5px grey;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+  width: 72px;
+  height: 72px;
+  padding: 6px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  float: left;
+}
+
+.redbox {
+  background-color: #D84231;
+}
+
+.orangebox {
+  background-color: #EAAE33;
+}
+
+.yellowbox {
+  background-color: #FCF733;
+}
+
+.greenbox {
+  background-color: #578C05;
+}
+
+.bluebox {
+  background-color: #234AFB;
+}
+
+.violetbox {
+  background-color: #DF8BF0;
+}
+
+img.codeup {
+  position: relative;
+  bottom: 90px;
+  left: 45px;
+}
