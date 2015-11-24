@@ -10,11 +10,19 @@ h1{color: #602F95;
    margin-bottom: 50px
  }
 
+ img.ribbon{
+  float: right;
+  position: relative;
+  left: 8px;
+  bottom: 95px;
+ }
+
 .redbox {
 background-color: #D84231;
 box-shadow: 10px 10px 5px grey;
 color: white;
 font-weight: bolder;
+font-size: 18px;
 width: 72px;
 height: 72px;
 padding: 6px;
@@ -28,6 +36,7 @@ float: left;
 margin: 0px 50px 50px 50px;
 background-color: #EAAE33;
 box-shadow: 10px 10px 5px grey;
+font-size: 18px;
 color: white;
 font-weight: bolder;
 width: 72px;
@@ -39,11 +48,12 @@ border-width: 1px;
 float: left;
 }
 .yellowbox{
-margin: 0px 900px 50px 0px;
+margin: 0px 50px 50px 0px;
 background-color: #FCF733;
 box-shadow: 10px 10px 5px grey;
 color: white;
 font-weight: bolder;
+font-size: 18px;
 width: 72px;
 height: 72px;
 padding: 6px;
@@ -58,6 +68,7 @@ background-color: #578C05;
 box-shadow: 10px 10px 5px grey;
 color: white;
 font-weight: bolder;
+font-size: 18px;
 width: 72px;
 height: 72px;
 padding: 6px;
@@ -65,13 +76,15 @@ border-style: solid;
 border-color: black;
 border-width: 1px;
 float: left;
+clear: left;
 }
 .bluebox{
-margin: 0px 50px 0px 50px;
+margin: 0px 0px 0px 50px;
 background-color: #234AFB;
 box-shadow: 10px 10px 5px grey;
 color: white;
 font-weight: bolder;
+font-size: 18px;
 width: 72px;
 height: 72px;
 padding: 6px;
@@ -81,11 +94,12 @@ border-width: 1px;
 float: left;
 }
 .violetbox{
-margin: 0px 0px 0px 0px;
+margin: 0px 0px 0px 50px;
 background-color: #DF8BF0;
 box-shadow: 10px 10px 5px grey;
 color: white;
 font-weight: bolder;
+font-size: 18px;
 width: 72px;
 height: 72px;
 padding: 6px;
@@ -97,33 +111,34 @@ border-width: 1px;
 
 img.codeup1 {
   position: relative;
-  bottom: 80px;
+  bottom: 90px;
   left:  45px;
 }
 img.codeup2 {
   position: relative;
-  bottom: 80px;
+  bottom: 90px;
   left:  45px;
 }
 img.codeup3 {
   position: relative;
-  bottom: 80px;
+  bottom: 90px;
   left:  45px;
 }
 img.codeup4 {
   position: relative;
-  bottom: 80px;
+  bottom: 90px;
   left:  45px;
 }
 img.codeup5 {
   position: relative;
-  bottom: 80px;
+  bottom: 90px;
   left:  45px;
 }
 img.codeup6 {
   position: relative;
-  bottom: 80px;
+  bottom: 90px;
   left:  45px;
 }
+
 
 
