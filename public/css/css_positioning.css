@@ -17,6 +17,10 @@ h1{color: #602F95;
   bottom: 95px;
  }
 
+#container :nth-child(1n+5){
+float: left;
+}
+
 .redbox {
 background-color: #D84231;
 box-shadow: 10px 10px 5px grey;
@@ -75,8 +79,8 @@ padding: 6px;
 border-style: solid;
 border-color: black;
 border-width: 1px;
-float: left;
-clear: left;
+/*float: left;
+*/clear: left;
 }
 .bluebox{
 margin: 0px 0px 0px 50px;
@@ -91,8 +95,8 @@ padding: 6px;
 border-style: solid;
 border-color: black;
 border-width: 1px;
-float: left;
-}
+/*float: left;
+*/}
 .violetbox{
 margin: 0px 0px 0px 50px;
 background-color: #DF8BF0;
@@ -105,8 +109,8 @@ height: 72px;
 padding: 6px;
 border-style: solid;
 border-color: black;
-float: left;
-border-width: 1px;
+/*float: left;
+*/border-width: 1px;
 }
 
 img.codeup1 {
