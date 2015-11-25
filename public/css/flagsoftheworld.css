@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.box{
+width: 300px;
+height: 200px;
+background-color: #BD1441;
+}
+
+.stripes>div{
+	width: 300px;
+	height: 10px;
+	margin-top: 20px;
+	background: white;
+	float: left;
+}
+
+.blue{
+	width: 120px;
+	height: 90px;
+	background-color: #021D3F;
+	float: left;
+	position: relative;
+	top: -180px;
+	color: white;
+	font-size: 15px;
+
+}
+

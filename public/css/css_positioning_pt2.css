@@ -19,7 +19,7 @@ img.ribbon {
   float: right;
   position: relative;
   left: 8px;
-  bottom: 95px;
+  bottom: 110px;
 }
 
 #container div:nth-child(2n+1) {
@@ -29,7 +29,7 @@ img.ribbon {
 .box {
   margin: 0px 50px 50px 0px;
   box-shadow: 10px 10px 5px grey;
-  color: white;
+  color: black;
   font-weight: bolder;
   font-size: 18px;
   width: 72px;
@@ -39,6 +39,7 @@ img.ribbon {
   border-color: black;
   border-width: 1px;
   float: left;
+  font-family: 'Monofett', cursive;
 }
 
 .redbox {
