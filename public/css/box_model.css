@@ -38,7 +38,9 @@ h1 {color: #602F95;
   }
 }
 /*--------------------------*/
-/*Colored boxes*/
+/*Characteristics of all 
+boxes minus margin and 
+color.*/
 /*-------------------------*/
 .box {
 border-radius: 20px;
@@ -54,6 +56,10 @@ border-style: solid;
 border-color: black;
 border-width: 1px;
 }
+
+/*--------------------------*/
+/*Colored boxes*/
+/*-------------------------*/
 
 .redbox {
 background-color: #D84231;
