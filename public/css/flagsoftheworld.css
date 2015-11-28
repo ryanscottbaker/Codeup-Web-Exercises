@@ -11,7 +11,7 @@ height: 200px;
 background-color: #BD1441;
 }
 
-.stripes>div{
+.stripes div{
 	width: 300px;
 	height: 10px;
 	margin-top: 20px;
@@ -27,7 +27,6 @@ background-color: #BD1441;
 	position: relative;
 	top: -180px;
 	color: white;
-	font-size: 15px;
-
+	font-size: 10px;
 }
 

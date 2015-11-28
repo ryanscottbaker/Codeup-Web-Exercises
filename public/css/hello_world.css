@@ -1,3 +1,4 @@
+
 h1 {
 	color: #779D49;
 }
@@ -20,6 +21,7 @@ h2{
 .background	{
 
 	background-color: #b0c4de;
+	margin: 10px 10px 10px 10px;
 }
 ol	{
 	list-style: square;
@@ -73,7 +75,9 @@ a:active {
 	width: 220px;
 	height: 220px;
 	padding: 5px;
-
+	position: relative;
+	right: 7px;
+	top: 5.5px;
 }
 
 
