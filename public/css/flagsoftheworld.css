@@ -5,13 +5,21 @@ html {
     box-sizing: inherit;
 }
 
-.box{
-width: 300px;
-height: 200px;
-background-color: #BD1441;
+body {
+	background-color: salmon;
 }
 
-.stripes div{
+
+/*US Flag*/
+.box {
+width: 302px;
+height: 202px;
+background-color: #BD1441;
+border: 1px solid black; 
+
+}
+
+.stripes div {
 	width: 300px;
 	height: 10px;
 	margin-top: 20px;
@@ -19,7 +27,7 @@ background-color: #BD1441;
 	float: left;
 }
 
-.blue{
+.blue {
 	width: 120px;
 	height: 90px;
 	background-color: #021D3F;
@@ -27,6 +35,185 @@ background-color: #BD1441;
 	position: relative;
 	top: -180px;
 	color: white;
-	font-size: 10px;
+	letter-spacing: 10px;
+	font-size: 9px;
+	line-height: 10%;
+	margin: 0px;
+	padding: 8px 1px 1px 8px;
+	
 }
+
+/*Japanese Flag*/
+
+.box2 {
+	width: 302px;
+	height: 202px;
+	background-color: white;
+	border: 1px solid black; 
+	position: relative;
+	margin-top: 15px;
+}
+
+.circle {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 25px;
+	left: 75px;
+}
+
+/*Norway */
+
+.box3 {
+	width: 302px;
+	height: 202px;
+	background-color: #EC3645; 
+	position: relative;
+	margin-top: 15px;
+	border: 1px solid black; 
+
+}
+
+
+.wvertical {
+	height: 200px;
+	width: 60px;
+	background-color: white;
+	position: absolute;
+	left: 25%;
+}
+
+.whorizontal {
+	height: 60px;
+	width: 300px;
+	background-color: white;
+	position: absolute;
+	top: 35%;
+
+}
+
+.bvertical {
+	height: 200px;
+	width: 40px;
+	background-color: #404B74;
+	position: absolute;
+	left: 28.5%;
+}
+
+.bhorizontal {
+	height: 40px;
+	width: 300px;
+	background-color: #404B74;
+	position: absolute;
+	top: 40%;
+}
+
+/*Britain*/
+
+.box4 {
+	width: 302px;
+	height: 202px;
+	background-color: #404B74; 
+	position: relative;
+	margin-top: 15px;
+	border: 1px solid black;
+	position: relative;
+	overflow: hidden;
+}
+
+.whitevertical {
+	height: 200px;
+	width: 60px;
+	background-color: white;
+	position: absolute;
+	left: 39%;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.whitehorizontal {
+	height: 60px;
+	width: 300px;
+	background-color: white;
+	position: absolute;
+	top: 35%;
+	overflow: hidden;
+	z-index: 1;
+
+}
+
+.rvertical {
+	height: 200px;
+	width: 40px;
+	background-color: #CD1931;
+	position: absolute;
+	left: 42.5%;
+	z-index: 1;
+}
+
+.rhorizontal {
+	height: 40px;
+	width: 300px;
+	background-color: #CD1931;
+	position: absolute;
+	top: 40%;
+	z-index: 1;
+}
+
+.wcrosses {
+	position: relative;
+	right: 5px;
+}
+
+.wcross1 {
+	height: 25px;
+	width: 370px;
+	background-color: white;
+	position: absolute;
+	top: 86px;
+	left: -32px;
+    transform: rotate(33deg);
+    overflow: hidden;
+}
+
+.wcross2 {
+	height: 25px;
+	width: 370px;
+	background-color: white;
+	position: absolute;
+	top: 86px;
+	left: -32px;
+    transform: rotate(-33deg);
+    overflow: hidden;
+}
+
+.rcrosses {
+	position: relative;
+	top: 8px;
+}
+.rcross1 {
+	height: 10px;
+	width: 370px;
+	background-color: #CD1931;
+	position: absolute;
+	top: 86px;
+	left: -32px;
+    transform: rotate(33deg);
+    overflow: hidden;
+}
+
+.rcross2{
+	height: 10px;
+	width: 370px;
+	background-color: #CD1931;
+	position: absolute;
+	top: 86px;
+	left: -32px;
+    transform: rotate(-33deg);
+    overflow: hidden;
+}
+
+
 

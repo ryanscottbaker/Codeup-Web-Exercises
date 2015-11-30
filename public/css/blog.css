@@ -1,0 +1,185 @@
+/**CONTENTS
+*
+*SETTINGS
+*
+*Nomalize CSS
+*Box-Sizing
+*Font Awesome
+*Google Fonts
+*Meta Charset UTF-8
+*
+*LAYOUT
+*
+*Body...Color
+*Main Header
+*Nav
+*Main Blog
+*Blog Headers
+*Aside Containers
+*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*Body Color*/
+
+body {
+	background-color:#1796C6; 
+}
+
+/*Main Header H1*/
+
+h1 {color: white;
+	text-align: center;
+	font-family: 'Lora', serif;
+	text-shadow: 2px 2px 2px black;
+ }
+
+/*Main Header Styling*/
+
+#main_header {
+	background-image: url("/img/galaxy.jpg");
+  opacity: 0.95;
+  background-color: #1796C6;
+	color: white;
+	font-size: 14px;
+	font-family: 'Lora', serif;
+	font-weight: lighter;
+  position: relative;
+  top: -20px;
+  height: 100px;
+}
+
+/*Navigation*/
+
+nav {
+	text-align: center;
+	margin: auto;
+	position: relative;
+	right:22px;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+}
+
+a:link {
+	text-decoration: none;
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: red;
+}
+
+
+/*Main Blog Container*/
+
+#main {
+  width: 1000px;
+  height: 1750px;
+  margin-left: 10px;
+  margin-top: -15px;
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 13px;
+  position: relative;
+}
+
+/*All blog headers*/
+
+h2 { 
+  color: white;
+  font-family: 'Lora', serif;
+}
+
+/*Blog Images, all the same size except Kung Fury*/
+
+.fargo,
+.walking,
+.dexter,
+.breaking {
+  height: 200px;
+  width: 320px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.kung_fury {
+  height: 300px;
+  width: 200px;
+  box-shadow: 2px 2px 2px black;
+
+}
+
+/*Aside Container*/
+
+.container {
+  position: absolute;
+  position: fixed;
+  top: 50%;
+  left: 88%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 200px;
+  height: 400px;
+  box-shadow: 10px 5px 20px black;
+
+}
+
+.container .top {
+  height: 45%;
+  background: #1687C8;
+
+}
+.container .bottom {
+  position: relative;
+  height: 55%;
+  background: #1796C6;
+}
+
+.bottom_text {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  text-align: center;
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+
+}
+
+.container .bottom:before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  border-style: solid;
+  border-width: 0 0 60px 200px;
+  border-color: transparent transparent #1796C6;}
+
+.circle {
+    background-image: url("/img/794.jpg");
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-position: center;
+    position: absolute;
+    left: 25px;
+    top: 100px;
+    z-index: 1;
+    box-shadow: 10px 5px 15px black;
+}
+
