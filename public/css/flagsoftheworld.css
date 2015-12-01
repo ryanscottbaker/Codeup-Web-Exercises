@@ -12,7 +12,7 @@ body {
 
 /*US Flag*/
 .box {
-width: 302px;
+width: 300px;
 height: 202px;
 background-color: #BD1441;
 border: 1px solid black; 
@@ -20,7 +20,7 @@ border: 1px solid black;
 }
 
 .stripes div {
-	width: 300px;
+	width: 100%;
 	height: 10px;
 	margin-top: 20px;
 	background: white;
