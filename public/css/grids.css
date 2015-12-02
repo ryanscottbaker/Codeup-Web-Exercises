@@ -9,11 +9,13 @@ html {
     margin: 0 auto;
     width: 80%;
     max-width: 1200px;
+    background-color: blue;
 }
 
 .row {
     width:100%;
     background-color: yellow;
+   
 }
 
 .row:after {
@@ -25,20 +27,36 @@ html {
 .column {
     float: left;
     padding: 10px;
-    background-color: blue;
 }
 .column.one-third {
     width: 33.33%;
+    border: solid 1px black;
+    background-color: blue;
 }
 .column.one-half {
     width: 50%;
+    border: solid 1px blue;
+    background-color: salmon;
 }
 
-.column.one-forth {
+.column.one-fourth {
 	width: 25%;
+	border: solid 1px teal;
+	background-color: orange;
 }
+
 
 .column.one-sixth {
 	width: 16.666%;
+	border: solid 1px darkred;
+	background-color: lightyellow;
+
 }
+
+.column.one-eighth {
+	width: 12.5%;
+	border: solid 1px purple;
+	background-color: magenta;
+}
+
 
