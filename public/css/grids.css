@@ -37,3 +37,8 @@ html {
 .column.one-forth {
 	width: 25%;
 }
+
+.column.one-sixth {
+	width: 16.666%;
+}
+
