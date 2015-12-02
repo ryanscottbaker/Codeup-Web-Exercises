@@ -13,6 +13,7 @@ html {
 
 .row {
     width:100%;
+    background-color: yellow;
 }
 
 .row:after {
@@ -24,10 +25,15 @@ html {
 .column {
     float: left;
     padding: 10px;
+    background-color: blue;
 }
 .column.one-third {
     width: 33.33%;
 }
 .column.one-half {
     width: 50%;
+}
+
+.column.one-forth {
+	width: 25%;
 }
