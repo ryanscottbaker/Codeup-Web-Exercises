@@ -59,4 +59,10 @@ html {
 	background-color: magenta;
 }
 
+.offset-one-half {
+	background-color: black;
+	margin-left: 50%;
+}
+
+
 
