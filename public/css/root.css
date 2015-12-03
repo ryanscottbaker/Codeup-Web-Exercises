@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.stephen {
+	float: left;
+}
+
+.topnav li{
+	display: inline;
+	
+}
+
+ul {
+	text-indent: 30px;
+	word-spacing: 30px;
+}
+
+.picbox {
+	width: 80%;
+	height: 150px;
+	background-image: url("/img/rootvint.jpg");
+	position: absolute;
+	left: 10%;
+	background-size: 100% 100%;
+}
+
+.pictext {
+	color: white;
+	position: absolute;
+	top: 40%;
+	right: 10%;
+	font-size: 20px;
+}
+
+.boxes {
+	background-color: transparent;
+
+}
+
+.box1 {
+	width: 100px;
+	height: 25px;
+	color: white;
+}
+
+.box2
