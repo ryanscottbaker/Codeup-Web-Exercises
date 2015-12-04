@@ -1,0 +1,108 @@
+/*----------*/
+/*Box Sizing*/
+/*----------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*-------------*/
+/*Rem Font Size*/
+/*-------------*/
+
+
+html {
+	font-size: 2rem;
+}
+
+@media screen and (min-width: 500px) {
+    h1 {
+        color: blue;
+        text-decoration: underline;
+        text-align: center;
+    }
+}
+
+/*-------------------*/
+/*Responsive Settings*/
+/*-------------------*/
+
+@media screen and (min-width: 500px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+/*-----------*/
+/*The Columns*/
+/*-----------*/
+
+.column {
+    float: left;
+    width: 25%;
+    height: 100px;
+}
+
+
+@media screen and (min-width: 1px) and (max-width: 550px) {
+
+	.four-fifths {
+		width: 80%;
+		margin: 5%;
+
+	}
+}
+
+@media screen and (min-width: 551px) and (max-width: 800px) {
+
+	.one-third {
+		width: 30%;
+		margin: 2%;
+	}
+}
+
+@media screen and (min-width: 801px) and (max-width: 1500px) {
+
+	.one-quarter {
+		width: 25%;
+		margin: .5%;
+	}
+}
+
+/*---------*/
+/*The Boxes*/
+/*---------*/
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+
+.purple {
+	background-color: purple;
+}
+
+.orange {
+	background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
