@@ -17,42 +17,53 @@ html {
 	font-size: 2rem;
 }
 
-@media screen and (min-width: 500px) {
+/*----------*/
+/*h1 heading*/
+/*----------*/
+
+@media screen and (min-width: 100px) {
     h1 {
         color: blue;
         text-decoration: underline;
         text-align: center;
+        text-shadow: 3px 3px 3px grey;
     }
+}
+
+/*-----------*/
+/*The Column*/
+/*-----------*/
+
+.column {
+    float: left;
+    height: 100px;
 }
 
 /*-------------------*/
 /*Responsive Settings*/
 /*-------------------*/
 
-@media screen and (min-width: 500px) {
-    body {
-        background-color: lightgreen;
-    }
-}
-
-/*-----------*/
-/*The Columns*/
-/*-----------*/
-
-.column {
-    float: left;
-    width: 25%;
-    height: 100px;
-}
-
-
 @media screen and (min-width: 1px) and (max-width: 550px) {
 
-	.four-fifths {
+	.four-fifths,
+	ul, 
+	li  {
 		width: 80%;
 		margin: 5%;
-
+		display: inline;
+		list-style: none;
+		background-color: lightgrey;
+		list-style: none;
+		text-align: center;
+		text-shadow: 3px 3px 3px grey;
 	}
+/*Pay attention to this, this is how you add
+another trait to a selector within the same
+media query*/
+	ul {
+		box-shadow: 5px 5px, 5px;
+	}
+
 }
 
 @media screen and (min-width: 551px) and (max-width: 800px) {
@@ -60,14 +71,35 @@ html {
 	.one-third {
 		width: 30%;
 		margin: 2%;
+		text-shadow: 3px 3px 3px grey;
+		box-shadow: 5px 5px, 5px;
 	}
 }
+
+@media screen and (min-width: 551px) /*and (max-width: 800px)*/ {
+
+	nav,
+	ul {
+		float: left;
+		height: 600px;
+		left: 0%;
+		background-color: lightgrey;
+		box-shadow: 5px 5px, 5px;
+		list-style: none;
+		text-align: center;
+		text-shadow: 3px 3px 3px grey;
+
+	}
+}
+
 
 @media screen and (min-width: 801px) and (max-width: 1500px) {
 
 	.one-quarter {
 		width: 25%;
 		margin: .5%;
+		text-shadow: 3px 3px 3px grey;
+		box-shadow: 5px 5px, 5px;
 	}
 }
 

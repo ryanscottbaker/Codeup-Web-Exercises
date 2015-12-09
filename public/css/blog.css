@@ -40,7 +40,7 @@ h1 {color: white;
 
 /*Main Header Styling*/
 
-#main_header {
+header {
 	background-image: url("/img/galaxy.jpg");
   opacity: 0.95;
   background-color: #1796C6;
@@ -87,7 +87,7 @@ a:active {
 
 /*Main Blog Container*/
 
-#main {
+article {
   width: 1000px;
   height: 1750px;
   margin-left: 10px;
