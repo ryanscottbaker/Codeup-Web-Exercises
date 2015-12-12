@@ -21,8 +21,8 @@ nav {
 
 ul,
 li {
-	position: relative;
-	left: 7%;
+	/*position: relative;
+	left: 7%;*/
 	max-width: 100%;
 	font-size: 1.5rem;
 }
@@ -45,7 +45,6 @@ ul.nav li.active a {
 
 .numero1 {
 	height: 800px;
-	width: 100%;
 	background-image: url("/img/hip.jpg");
 	opacity: 0.6;
 	background-size: 100%;
@@ -54,35 +53,31 @@ ul.nav li.active a {
 }
 
 .numero2 {
-	height: 400px;
+	height: 100%;
 	width: 100%;
 	background-color: white;
 	margin-bottom: 2%;
 }
 
 .numero3 {
-	height: 400px;
+	height: 100%;
 	width: 100%;
 	background-color: #E9EAEA;
 
 }
 
 .numero4 {
-	height: 400px;
+	height: 100%;
 	width: 100%;
 	background-color: white;
 	margin-bottom: 2%;
 }
 
 .numero5 {
-	height: 400px;
+	height: 100%;
 	width: 100%;
 	background-color: #E9EAEA;
-
 }
-
-
-
 
 i {
 	color: #D91E57;
@@ -170,8 +165,19 @@ iframe {
 	top: 1%;
 }
 
-
-
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70%;
+	height: 70%;
+}
 
 
 
