@@ -1,50 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Kandy Tutorial</title>
+	<title>Kandy Tutorials</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="css/kandy.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/kandy.css">
 </head>
 	<body>
-		<header>
-			<h3 style="line-height: 25px">How do you
-			<span style="line-height: 25px;" class="kandy"><strong>Kandy</strong></span> ?
-			</h3>
-		</header>
-	 <div class="container">
-		<iframe width="400" height="224" src="https://www.youtube.com/embed/FNtXSO3v9n4" frameborder="0" allowfullscreen>
-		</iframe>
-			<h2 style="line-height: 22px;"><p>Your Apps.</p>
-		    <p>More Human.</p></h2>	<img src="img/kandy.png">
+		<div class="container-fluid logo1">	
+			<div class="logo"><h2 style="line-height: 22px;"><p>Your Apps.</p>
+			    <p>More Human.</p></h2>	<img src="img/kandy.png"></div>
+			<header>
+				<h3>Getting started with 
+				<span class="kandycolor"><strong>Kandy</strong></span>.
+				</h3>
+			</header>
+			</div>
+			
+	<div class="container-fluid numero1">
 
-			<!-- <p><span style="line-height: 25px;" class="kandy"><strong>Kandy.</strong></span>
-			</div></p> -->
+			<nav class="navbar navbar-inverse">
+  				<div class="container-fluid">
+				    <div>
+				      <ul class="nav navbar-nav">
+				        <li><a href="https://developer.kandy.io/" target="_blank">Signup for Kandy</a></li>
+				        <li><a href="#">Connect to our API</a></li>
+				        <li><a href="#voice">Kandy Voice</a></li>
+				        <li><a href="#video">Kandy Video</a></li>
+				        <li><a href="#messaging">Kandy Messaging</a></li>
+				        <li><a href="#collaboration">Kandy Collaboration</a></li>
+				      </ul>
+				    </div>
+				</div>
+			</nav>
+    	</div>	
+
+<!-- Div for how to use Kandy Voice -->
+		
+		<section class="container-fluid numero2">
+			<h1>How to use<span class="kandycolor"> Kandy</span> Voice.</h1>
+			<a name="voice"></a>
+			<div class="circles">	
+				<div class="circle1 img-responsive">
+					<h1><i class="fa fa-mobile fa-lg"></i></h1>
+				</div>
+			</div>
+			
+<!-- Start of Row First Column -->
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<iframe class="videos" width="400" height="224" src="https://www.youtube.com/embed/uzSJasXAmqU" frameborder="0" allowfullscreen></iframe>
+					</div>
+
+<!-- Second column of row -->
+		    	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<div class="open">
+					Voice API
+					Build seamless voice applications with IP-2-IP voice calls and full WebRTC SIP trunking functionality. Also make and receive calls to and from international PSTN numbers using Kandy’s voice API.
+
+					Check out fring for Android and Apple, a mobile app that uses Kandy’s voice API features to allow voice calls to in-app friends for free. fring also provides free group video and text as well as low cost calls to mobile and landline phones.
+
+					Voice Click-to-Call
+					Click-to-call allows users to immediately connect in real-time, with just a simple click. Kandy supports click-to-call for voice communication on any device – smartphone, tablet, or PC or MAC web browser. Click-to-call allows users to utilize every important second and eliminates wasted time.
+
+					See how SAP integrates Kandy to deliver their Cloud for Customer platform, enabling sales, service, and business professionals to easily chat, talk, and collaborate in real time with their customers or co-workers.
+					</div>
+				</div>
+			</div>	
+		</section>	
+	
+		<div class="container-fluid numero3">
+			<h1>How to use<span class="kandycolor"><strong> Kandy</strong></span> Video.
+				<a name="video"></a>
+				<div class="circles">	
+					<div class="circle2 img-responsive">
+						<i class="fa fa-video-camera"></i>
+					</div>
+				</div>
+
+
+
+				<div class="row">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<iframe class="videos" width="400" height="224" src="https://www.youtube.com/embed/PYlhXgBfReE" frameborder="0" allowfullscreen></iframe>
+					</div>
+
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<div class="open">
+							Voice API
+							Easily integrate high quality, low-latency video with Kandy’s video API. By simply integrating Kandy’s video API, users can collaborate more efficiently through the webRTC video functions. Kandy’s webRTC video feature enables multi-party conversations while allowing users the ability to connect by hearing more than just a voice.
+
+							Check out how Toy Genius embeds Kandy’s video API to offer customers a virtual VIP shopping experience, allowing an expert to find you the perfect gift out of thousands of products.
+						</div>
+					</div>
+				</div>
+		</div>
+
+						
+
+
+
 		
 
-<!-- <div class="icons">
-<i class="material-icons md-48">account_circle</i>
-<i class="material-icons md-48">message</i>
-<i class="material-icons md-48">voice_chat</i>
-<i class="material-icons md-48">group</i>
-</div> -->
-</div>
-<!-- // Rules for sizing the icon.
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
-
-// Rules for using icons as black on a light background.
-.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
-.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
-
-// Rules for using icons as white on a dark background.
-.material-icons.md-light { color: rgba(255, 255, 255, 1); }
-.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); } -->
 
 
 
@@ -54,9 +113,43 @@
 
 
 
+		<div class="container-fluid numero4">
+			<h1>How to use<span class="kandycolor"> Kandy</span> Messaging.</h1>
+			<a name="messaging"></a>
+			<div class="circles">	
+				<div class="circle3">
+					<h1><i class="fa fa-wechat"></i></h1>
+				</div>
+			</div>
+		</div>		
+
+		<div class="container-fluid numero5">
+			<h1>How to use<span class="kandycolor"> Kandy</span> Collaboration.</h1>
+			<a name="collaboration"></a>
+			<div class="circles">	
+				<div class="circle4">
+					<h1><i class="fa fa-users"></i></h1>
+				</div>
+			</div>
+		</div>		
 
 	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
