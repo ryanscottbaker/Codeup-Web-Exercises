@@ -1,0 +1,137 @@
+
+/*////////////////////////////////////////////*/
+/*Main background with different animal prints*/
+/*////////////////////////////////////////////*/
+
+.container-fluid {
+	width: 100%;
+}
+
+.animalprint {
+	height: 1150px;
+	width: 435px;
+	position: absolute;
+	left: 2%;
+}
+
+.leopard {
+	width: 100%;
+	height: 20%;
+}
+
+.giraffe {
+	width: 100%;
+	position: relative;
+	bottom: .5%;
+}
+
+.snake {
+	width: 100%;
+	height: 32%;
+	position: relative;
+	bottom: 1%;
+}
+
+.peacock {
+	width: 100%;
+	height: 24%;
+	position: absolute;
+	bottom: 0;
+}
+
+.main {
+	height: 1110px;
+	width: 400px;
+	border: solid #7300AB 4px;
+	position: absolute;
+	top: 1.75%;
+	right: 3.5%;
+	background-image: url("/img/wood.jpg");
+	
+}
+
+.sazoo {
+	position: absolute;
+	top: 1%;
+	left: 6.5%;
+	width: 90%;
+
+}
+
+.frog {
+	position: absolute;
+	top: 35%;
+	right: 0%;
+	width: 100%;
+	height: auto;
+}
+
+footer {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
+	font-size: 2rem;
+	line-height: 60%;
+	letter-spacing: 2px;
+	border-top: solid #7300AB 4px;
+	width: 100%;
+	padding: 4%;
+}
+
+.just {
+	font-family: 'Bangers', cursive;
+	font-size: 2.3rem;
+	color: #FECB02;
+	text-shadow: 3px 5px 6px grey;
+
+}
+
+.footer-text {
+	font-family: 'helvitica' sans-serif;
+	font-size: 1.3rem;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	line-height: 70%;
+}
+
+.social-icons {
+	position: relative;
+	left: 30%;
+}
+
+.facebook {
+	width: 7%;
+	float: left;
+	height: auto;
+	margin-right: 1.5%;
+}
+
+.twitter {
+	width: 7%;
+	float: left;
+	height: auto;
+	margin-right: 1.75%;
+}
+
+.instagram {
+	width: 7%;
+	float: left;
+	height: auto;
+	margin-right: 1.5%;
+}
+
+.vine {
+	width: 7.5%;
+	float: left;
+	height: auto;
+	margin-right: 1%;
+}
+
+.youtube {
+	width: 7.5%;
+	float: left;
+	height: auto;
+
+}

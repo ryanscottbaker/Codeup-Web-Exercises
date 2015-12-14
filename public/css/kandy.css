@@ -1,3 +1,8 @@
+
+/*///////////////////////////*/
+/*Header Logo and Kandy Color*/
+/*///////////////////////////*/
+
 .logo {
 	position: relative;
 	top: 12px;
@@ -11,6 +16,10 @@ h3	{
 .kandycolor {
 	color: #D91E57;
 }
+
+/*///////////////////////////*/
+/*////////Nav Bar///////////*/
+/*/////////////////////////*/
 
 nav {
 	width: 100%;
@@ -39,11 +48,12 @@ ul.nav li.active a {
     color: white !important;
 }
 
-.container-fluid {
-	padding: 2%;
-}
+/*///////////////////////*/
+/*Main picture background*/
+/*//////////////////////*/
 
-.numero1 {
+
+.main {
 	height: 800px;
 	background-image: url("/img/hip.jpg");
 	opacity: 0.6;
@@ -52,45 +62,83 @@ ul.nav li.active a {
 	background-repeat: no-repeat;
 }
 
-.numero2 {
+/*//////////////////////////*/
+/*Main Boxes, Video and Text*/
+/*//////////////////////////*/
+
+.numero1 {
 	height: 100%;
 	width: 100%;
 	background-color: white;
 	margin-bottom: 2%;
+}
+
+.numero2 {
+	height: 100%;
+	width: 100%;
+	background-color: #E9EAEA;
+
 }
 
 .numero3 {
 	height: 100%;
 	width: 100%;
-	background-color: #E9EAEA;
-
+	background-color: white;
+	margin-bottom: 2%;
 }
 
 .numero4 {
 	height: 100%;
 	width: 100%;
-	background-color: white;
-	margin-bottom: 2%;
-}
-
-.numero5 {
-	height: 100%;
-	width: 100%;
 	background-color: #E9EAEA;
 }
+
+/*////////////////////////////////////*/
+/*Icon color and positioning for group*/
+/*////////////////////////////////////*/
 
 i {
 	color: #D91E57;
 	position: absolute;
-	left: 35%;
+	left: 32%;
 	top: 25%;
 }
 
+/*////////////////////////////////*/
+/*Individual positioning for Icons*/
+/*////////////////////////////////*/
+
+
+.fa-mobile {
+	position: absolute;
+	left: 32%;
+
+}
+
+.fa-video-camera {
+	position: absolute;
+	left: 19%;
+}
+
+.fa-wechat {
+	position: absolute;
+	left: 19%;
+}
+
+.fa-users {
+	position: absolute;
+	left: 19%;
+}
+
+
+/*////////////////////////////////////////////////////////*/
+/*Circles controls placement of all 4 circles around icons*/
+/*////////////////////////////////////////////////////////*/
+
 .circles {
 	position: relative;
-	left: 74%;
+	left: 73%;
 	top: -50px;
-
 }
 
 .circle1 {
@@ -108,6 +156,7 @@ i {
 	border: 2px solid white;
 	border-radius: 50%;
 	position: relative; 
+	bottom: 10px;
 }
 
 .circle3 {
@@ -128,24 +177,11 @@ i {
 	bottom: 10px; 
 }
 
-.fa-video-camera {
-	position: absolute;
-	left: 25%;
-}
+/*/////////////////////*/
+/*Text for all sections*/
+/*/////////////////////*/
 
-.fa-wechat {
-	position: absolute;
-	left: 23%;
-}
-
-.fa-users {
-	position: absolute;
-	left: 22%;
-}
-
-
-
-.open {
+.boxtext {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-size: 1.5rem;
 	font-weight: lighter;
@@ -160,10 +196,9 @@ iframe {
 	left: 2.5%;
 }
 
-.videos {
-	position: absolute;
-	top: 1%;
-}
+/*////////////////////////////////////////////////////////////*/
+/*This is the CSS required to make iframes size proportionally*/
+/*////////////////////////////////////////////////////////////*/
 
 .videoWrapper {
 	position: relative;
