@@ -65,6 +65,41 @@ ul.nav li.active a {
 /*//////////////////////////*/
 /*Main Boxes, Video and Text*/
 /*//////////////////////////*/
+.signup {
+	margin-bottom: 8%;
+}
+
+
+.api {
+	height: 100%;
+	width: 100%;
+	background-color: #E9EAEA;
+}
+
+.connect {
+	position: relative;
+	right: 0%;
+	top: -20%;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 1.5rem;
+	font-weight: lighter;
+	color: #606060;
+}
+
+/*//////////////////*/
+/*my tutorial videos*/
+/*//////////////////*/
+
+.tut {
+	position: relative;
+	left: 15%;
+
+}
+
+.voicevideo {
+  position: relative;
+  left:2%;
+}
 
 .numero1 {
 	height: 100%;
@@ -77,6 +112,7 @@ ul.nav li.active a {
 	height: 100%;
 	width: 100%;
 	background-color: #E9EAEA;
+	margin-bottom: 2%;
 
 }
 
@@ -156,8 +192,6 @@ i {
   padding-bottom: 100%;
   background: white;
 }*/
-
-
 
 
 
