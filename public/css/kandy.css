@@ -30,8 +30,8 @@ nav {
 
 ul,
 li {
-	/*position: relative;
-	left: 7%;*/
+	position: relative;
+	left: 10%;
 	max-width: 100%;
 	font-size: 1.5rem;
 }
@@ -111,29 +111,56 @@ i {
 
 .fa-mobile {
 	position: absolute;
-	left: 32%;
+	left: 35%;
 
 }
 
 .fa-video-camera {
 	position: absolute;
-	left: 19%;
+	left: 21%;
 }
 
 .fa-wechat {
 	position: absolute;
-	left: 19%;
+	left: 21%;
 }
 
 .fa-users {
 	position: absolute;
-	left: 19%;
+	left: 21%;
 }
 
 
 /*////////////////////////////////////////////////////////*/
 /*Circles controls placement of all 4 circles around icons*/
 /*////////////////////////////////////////////////////////*/
+
+
+
+/*use this to make circles responsive */
+/*
+
+<div class="container">
+  <div class="circle"></div>
+</div>
+
+.container {
+  width: 15%;
+  height:300px;
+  background: blue;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 100%;
+  padding-bottom: 100%;
+  background: white;
+}*/
+
+
+
+
+
 
 .circles {
 	position: relative;
