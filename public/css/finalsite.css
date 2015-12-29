@@ -1,0 +1,116 @@
+body {
+	background-color: lightblue;
+	background: lightblue; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(-90deg, lightblue, white); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(-90deg, lightblue, white); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(-90deg, lightblue, white); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(-90deg, lightblue, white); /* Standard syntax */
+
+}
+
+.sazoo {
+	width: 16%;
+	padding: 1%;
+	float: left;
+	clear: both;
+}
+
+.address {
+	line-height: 40%;
+}
+
+nav {
+	background-color: #2A338F;
+	border-color: transparent !important;
+	position: relative;
+	clear: both;
+}
+
+ul,
+li {
+	
+	font-family: 'Bangers';
+	font-size: 2rem;
+	display: inline-block;
+	position: relative;
+	text-shadow: 1px 1px 1px black;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: white !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #FECB02 !important;
+}
+
+ul.nav li.active a {
+    color: white !important;
+}
+
+.btn-lg {
+	background-color: #2A338F;
+}
+
+.animal {
+	height: 40rem;
+	position: relative;
+	float: left;
+}
+
+.leopard {
+	width: 100%;
+}
+
+.giraffe {
+	width: 100%;
+}
+
+.snake {
+	width: 100%;
+}
+
+.peacock {
+	width: 100%;
+
+}
+
+.superhero {
+	width: 100%;
+	height: auto;
+}
+
+.mainback {
+	height: 145rem;
+	width: 90%;
+	border: solid #7300AB 4px;
+	position: relative;
+	left: 5%;
+	top: -1525px;
+	background-image: url("/img/whitewood2.jpg");
+	float: left;
+}
+
+.frog {
+	position: relative;
+	top: 0%;
+	left: 65%;
+	width: 40%;
+	float: left;
+}
+
+.heading {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 3rem;
+	line-height: 100%;
+	position: relative;
+	top: 1%;
+}
+
+.just {
+	font-family: 'Bangers';
+	font-size: 4.3rem;
+	color: #FECB02;
+	text-shadow: 3px 5px 6px grey;
+}
