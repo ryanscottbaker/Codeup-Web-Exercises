@@ -5,8 +5,7 @@ body {
   	background: -o-linear-gradient(-90deg, lightblue, white); /* For Opera 11.1 to 12.0 */
   	background: -moz-linear-gradient(-90deg, lightblue, white); /* For Firefox 3.6 to 15 */
   	background: linear-gradient(-90deg, lightblue, white); /* Standard syntax */
-
-}
+  }
 
 .sazoo {
 	width: 16%;
@@ -14,14 +13,69 @@ body {
 	float: left;
 	clear: both;
 }
+header {
+	position: relative;
+}
 
 .address {
 	line-height: 40%;
+	position: relative;
+	right: 1%;
+	margin-bottom: 2%;
+	margin-top: 1%;
+	font-size: 1.5rem;
+
+}
+
+.giraffes {
+	width: 40%;
+}
+
+.frog {
+	position: absolute;
+	top: 2%;
+	right: -2%;
+	width: 25%;
+	float: left;
+}
+
+
+h3 {
+	font-family: 'Bangers';
+	font-size: 4.3rem;
+	color: #FECB02;
+	text-shadow: 3px 5px 6px grey;
+}
+
+.attractions-con {
+	position: absolute;
+	top: 23%;
+}
+
+.attractions {
+	font-size: 1.2rem;
+	line-height: 130%;
+}
+
+.flightschool {
+	width: 75%;
+	/*margin-bottom: 2%;*/
+}
+
+.train {
+	width: 75%;
+}
+
+.lory {
+	width: 75%;
+}
+
+.carousel {
+	width: 95%;
 }
 
 nav {
 	background-color: #2A338F;
-	border-color: transparent !important;
 	position: relative;
 	clear: both;
 }
@@ -74,10 +128,11 @@ ul.nav li.active a {
 	width: 100%;
 
 }
-
-.superhero {
-	width: 100%;
-	height: auto;
+.hero {
+	width: 105%;
+	float: left;
+	position: absolute;
+	left: -2.5%;
 }
 
 .mainback {
@@ -91,12 +146,9 @@ ul.nav li.active a {
 	float: left;
 }
 
-.frog {
+.maintext {
 	position: relative;
-	top: 0%;
-	left: 65%;
-	width: 40%;
-	float: left;
+	top: -40%;
 }
 
 .heading {
@@ -114,3 +166,50 @@ ul.nav li.active a {
 	color: #FECB02;
 	text-shadow: 3px 5px 6px grey;
 }
+
+footer {
+	position: absolute;
+	bottom: 1%;
+	font-size: 1.3rem;
+}
+
+.social-icons {
+	position: relative;
+	left: 38%;
+	margin-bottom: 1%;
+}
+.facebook {
+	width: 3%;
+	float: left;
+	height: auto;
+	margin-right: 1.5%;
+}
+
+.twitter {
+	width: 3%;
+	float: left;
+	height: auto;
+	margin-right: 1.75%;
+}
+
+.instagram {
+	width: 3%;
+	float: left;
+	height: auto;
+	margin-right: 1.5%;
+}
+
+.vine {
+	width: 3.2%;
+	float: left;
+	height: auto;
+	margin-right: 1%;
+}
+
+.youtube {
+	width: 3.2%;
+	float: left;
+	height: auto;
+
+}
+
