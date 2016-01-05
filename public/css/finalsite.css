@@ -7,15 +7,55 @@ body {
   	background: linear-gradient(-90deg, lightblue, white); /* Standard syntax */
   }
 
+/*////////////////////////////////////////*/
+/*Header with logo, nav, and addresss info*/
+/*////////////////////////////////////////*/
+
+header {
+	position: relative;
+}
+
+/*nav controls, colors, pills etc.*/
+
+nav {
+	background-color: #2A338F;
+	position: relative;
+	clear: both;
+}
+
+ul,
+li {
+	
+	font-family: 'Bangers';
+	font-size: 2rem;
+	display: inline-block;
+	position: relative;
+	text-shadow: 1px 1px 1px black;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: white !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #FECB02 !important;
+}
+
+ul.nav li.active a {
+    color: white !important;
+}
+
+.btn-lg {
+	background-color: #2A338F;
+}
+
+/*Main Zoo Logo*/
 
 .sazoo {
 	width: 16%;
 	padding: 1%;
 	float: left;
 	clear: both;
-}
-header {
-	position: relative;
 }
 
 .address {
@@ -25,8 +65,83 @@ header {
 	margin-bottom: 2%;
 	margin-top: 1%;
 	font-size: 1.5rem;
+}
+
+/*////////////////////////*/
+/*Background animal prints*/
+/*////////////////////////*/
+
+/*Hero container for animal prints*/
+
+.hero {
+	width: 105%;
+	float: left;
+	position: absolute;
+	left: -2.5%;
+}
+
+.animal {
+	height: 50rem;
+	position: relative;
+	float: left;
+}
+
+.leopard {
+	width: 100%;
+}
+
+.giraffe {
+	width: 100%;
+}
+
+.snake {
+	width: 100%;
+}
+
+.peacock {
+	width: 100%;
 
 }
+
+/*/////////////////////*/
+/*White main background*/
+/*/////////////////////*/
+
+.mainback {
+	height: 185rem;
+	width: 90%;
+	border: solid #7300AB 4px;
+	position: relative;
+	left: 5%;
+	top: -1925px;
+	background-image: url("/img/whitewood2.jpg");
+	float: left;
+	padding: 1%;
+}
+
+/*///////////////////////////*/
+/*Main heading on top of page*/
+/*///////////////////////////*/
+
+.heading {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 3rem;
+	line-height: 100%;
+	position: relative;
+	top: 1%;
+}
+
+.just {
+	font-family: 'Bangers';
+	font-size: 4.3rem;
+	color: #FECB02;
+	text-shadow: 3px 5px 6px grey;
+}
+
+/*/////////////////////////////////////////////////////////////////////*/
+/*All Media Query Info all elements explained after media query section*/
+/*/////////////////////////////////////////////////////////////////////*/
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
@@ -41,12 +156,35 @@ header {
 	.sazoo {
 		width: 100%;
 	}
+
+	h3 {
+		font-size: 1.8rem;
+	}
+
 	.address {
 		font-size: .9rem
 	}
+
+	.giraffes {
+		position: relative;
+		left: 28%;
+	}
+
+	.frog {
+		width: 15%;
+		position: absolute;
+		top: 5%;
+		right: 1%;
+	}
+
 	.attractions {
 	font-size: .9rem;
 	line-height: 130%;
+	}
+
+	.attract-head {
+		position: relative;
+		right: 5%;
 	}
 
 	.directions {
@@ -56,6 +194,7 @@ header {
 
 	footer {
 		font-size: 1.0rem;
+		line-height: 90%;
 	}
 	.social {
 		width: 10%;
@@ -79,7 +218,7 @@ header {
 	.couponheading {
 		position: absolute;
 		bottom: 30%;
-		left: 30%;
+		left: 45%;
 	}
 
 	.funpass {
@@ -111,11 +250,10 @@ header {
 	bottom: 5.7%;
 	left: 1%;
 	margin-bottom: 2%;
-}
+	clear: both;
+	}
 
 }
-
-
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
@@ -123,9 +261,26 @@ header {
 		width: 50%;
 	}
 
+	.giraffes {
+		position: relative;
+		left: 28%;
+	}
+
+	.frog {
+		width: 15%;
+		position: absolute;
+		top: 5%;
+		right: 1%;
+	}
+
 	.attractions {
-	font-size: .9rem;
-	line-height: 130%;
+		font-size: .9rem;
+		line-height: 130%;
+	}
+
+	.directions {
+		font-size: .9rem;
+		line-height: 90%;
 	}
 
 	footer {
@@ -175,14 +330,15 @@ header {
 	}
 
 	.ticket {
-	text-align: center;
-	font-size: 1.0rem;
-	line-height: 115%;
-	width: 90%;
-	position: absolute;
-	bottom: 10%;
-	left: 1%;
-}
+		text-align: center;
+		font-size: 1.0rem;
+		line-height: 115%;
+		width: 90%;
+		position: absolute;
+		bottom: 10%;
+		left: 1%;
+		clear: both;
+	}
 
 }
 
@@ -192,14 +348,26 @@ header {
 		width: 16%;
 	}
 
+	.giraffes {
+		position: relative;
+		left: 0%;
+	}
+
+	.frog {
+		width: 15%;
+		position: absolute;
+		top: 3%;
+		right: 1%;
+	}
+
 	.attractions {
-	font-size: 1.2rem;
-	line-height: 130%;
+		font-size: 1.2rem;
+		line-height: 130%;
 	}
 
 	.directions {
-	font-size: 1.2rem;
-	line-height: 130%;
+		font-size: 1.2rem;
+		line-height: 130%;
 	}
 
 	footer {
@@ -207,9 +375,10 @@ header {
 	}
 
 	.couponheading {
-	right: 45%;
-	bottom: 27%;
-}
+		right: 45%;
+		position: absolute;
+		bottom: 27%;
+	}
 
 	.coupon	{
 		width: 35%;
@@ -242,13 +411,14 @@ header {
 		font-size: 1rem;
 	}
 	.ticket {
-	text-align: center;
-	font-size: 1.25rem;
-	line-height: 115%;
-	width: 20%;
-	position: absolute;
-	bottom: 20%;
-	left: 40%;
+		text-align: center;
+		font-size: 1.25rem;
+		line-height: 115%;
+		width: 20%;
+		position: absolute;
+		bottom: 20%;
+		left: 40%;
+		clear: both;
 	}
 
 }
@@ -260,8 +430,8 @@ header {
 	}
 	
 	.attractions {
-	font-size: 1.2rem;
-	line-height: 130%;
+		font-size: 1.2rem;
+		line-height: 130%;
 	}
 
 	footer {
@@ -290,39 +460,40 @@ header {
 
 }
 
-
-
-
-
-
-
+/*//////////////////////////////////////////*/
+/*Giraffe and Frog images on the top of page*/
+/*//////////////////////////////////////////*/
 
 .giraffes {
 	width: 40%;
 }
 
 .frog {
-	position: absolute;
-	top: 2%;
-	right: -4%;
-	width: 25%;
+	width: 22%;
 	float: left;
 }
 
+/*/////////////////////*/
+/*Selector for all h3's*/
+/*/////////////////////*/
 
 h3 {
 	font-family: 'Bangers';
-	font-size: 4.3rem;
 	color: #FECB02;
 	text-shadow: 3px 5px 6px grey;
+    text-align: center;
 }
+
+/*/////////////////////////*/
+/*Container for attractions*/
+/*/////////////////////////*/
 
 .attractions-con {
 	position: absolute;
 	top: 15%;
 }
 
-.flightschool {
+.butterflies {
 	width: 75%;
 }
 
@@ -335,79 +506,8 @@ h3 {
 }
 
 .carousel {
-	width: 90%;
-}
-
-nav {
-	background-color: #2A338F;
-	position: relative;
-	clear: both;
-}
-
-ul,
-li {
-	
-	font-family: 'Bangers';
-	font-size: 2rem;
-	display: inline-block;
-	position: relative;
-	text-shadow: 1px 1px 1px black;
-}
-
-ul.nav li a, ul.nav li a:visited {
-    color: white !important;
-}
-
-ul.nav li a:hover, ul.nav li a:active {
-    color: #FECB02 !important;
-}
-
-ul.nav li.active a {
-    color: white !important;
-}
-
-.btn-lg {
-	background-color: #2A338F;
-}
-
-.animal {
-	height: 50rem;
-	position: relative;
-	float: left;
-}
-
-.leopard {
-	width: 100%;
-}
-
-.giraffe {
-	width: 100%;
-}
-
-.snake {
-	width: 100%;
-}
-
-.peacock {
-	width: 100%;
-
-}
-.hero {
-	width: 105%;
-	float: left;
-	position: absolute;
-	left: -2.5%;
-}
-
-.mainback {
-	height: 185rem;
-	width: 90%;
-	border: solid #7300AB 4px;
-	position: relative;
-	left: 5%;
-	top: -1925px;
-	background-image: url("/img/whitewood2.jpg");
-	float: left;
+	width: 85%;
+	margin-bottom: 2%;
 }
 
 .maintext {
@@ -415,68 +515,9 @@ ul.nav li.active a {
 	top: -40%;
 }
 
-.heading {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bolder;
-	font-size: 3rem;
-	line-height: 100%;
-	position: relative;
-	top: 1%;
-}
-
-.just {
-	font-family: 'Bangers';
-	font-size: 4.3rem;
-	color: #FECB02;
-	text-shadow: 3px 5px 6px grey;
-}
-
-.couponheading {
-	position: absolute;
-
-}
-
-.coupon {
-	position: absolute;
-	bottom: 13%;
-	left: .5%;
-	background-color: darkorange;
-	border: dashed 3px #7300AB;
-
-}
-.sazoologo{
-	position: absolute;
-	top: 2%;
-	background-color: white;
-	width: 65%;
-	right: 18%;
-	border-radius: 6px;
-}
-
-.admission {
-	font-family: 'Luckiest Guy', cursive;
-	color: white;
-	letter-spacing: .2rem;
-	line-height: 50%;
-	position: relative;
-	margin-top: 2%;
-	top: 35%;
-}
-
-.fineprint {
-	position: absolute;
-	bottom: -5%;
-	right: 3%;
-	font-size: 1.3rem;
-	line-height: 110%;
-	width: 95%;
-}
-
-
-
-/*///////////////////////////////*/
-/*Whitebox with all Fun Pass Info*/
-/*///////////////////////////////*/
+/*/////////////////////////////*/
+/*Whitebox Coupon lines 501-580*/
+/*/////////////////////////////*/
 
 .whitebox {
 	background-color: white;
@@ -501,30 +542,24 @@ ul.nav li.active a {
 	top: -3%;
 	font-family: 'Belgrano', serif;	
 	font-weight: lighter;
-	/*font-size: 1.8rem;*/
 }
 
 .funpassbottom {
 	position: relative;
 	bottom: -70%;
-	left: 11%;
 	font-family: 'Belgrano', serif;
-	/*font-size: 1.3rem;*/
 }
 
 .popcorn {
-	width: 12%;
+	width: 10%;
 	position: absolute;
-	right: 6%;
-	bottom: 5%;
+	right: 0%;
+	bottom: 3%;
 }
 
 .microprint {
-	float: left;
-	/*font-size: .45rem;*/
 	position: relative;
 	bottom: -65%;
-	/*left: 1.5%;*/
 }
 
 /*////////////////////////////////////*/
@@ -570,15 +605,12 @@ ul.nav li.active a {
 /*///////////////////////////////////*/
 
 .boxheading {
-	/*font-size: 1.1rem;*/
 	font-weight: bolder;
-	position: relative;
 	top: 0%;
 	left: 10%;
 }
 
 .boxbottom {
-	/*font-size: 1rem;*/
 	font-weight: bolder;
 	line-height: 90%;
 	position: relative;
@@ -599,15 +631,49 @@ ul.nav li.active a {
 	border: 1px solid black;
 }
 
-/*.ticket {
-	text-align: center;
-	font-size: 1.425rem;
-	line-height: 115%;
-	width: 20%;
+/*////////////////////////////////*/
+/*Everything for the Orange Coupon*/
+/*////////////////////////////////*/
+
+.coupon {
 	position: absolute;
-	bottom: 17%;
-	left: 40%;
-}*/
+	bottom: 13%;
+	left: .5%;
+	background-color: darkorange;
+	border: dashed 3px #7300AB;
+
+}
+.sazoologo{
+	position: absolute;
+	top: 2%;
+	background-color: white;
+	width: 65%;
+	right: 18%;
+	border-radius: 6px;
+}
+
+.admission {
+	font-family: 'Luckiest Guy', cursive;
+	color: white;
+	letter-spacing: .2rem;
+	line-height: 50%;
+	position: relative;
+	margin-top: 2%;
+	top: 35%;
+}
+
+.fineprint {
+	position: absolute;
+	bottom: -5%;
+	right: 3%;
+	font-size: 1.3rem;
+	line-height: 110%;
+	width: 95%;
+}
+
+/*////////////////////////////////////////////////////////////*/
+/*This is the CSS required to make iframes size proportionally*/
+/*////////////////////////////////////////////////////////////*/
 
 iframe {
 	box-shadow: 1px 1px 1px black;
@@ -615,10 +681,6 @@ iframe {
 	bottom: -5%;
 	left: 2.5%;
 }
-
-/*////////////////////////////////////////////////////////////*/
-/*This is the CSS required to make iframes size proportionally*/
-/*////////////////////////////////////////////////////////////*/
 
 .videoWrapper {
 	position: relative;
@@ -629,11 +691,14 @@ iframe {
 .videoWrapper iframe {
 	position: absolute;
 	top: 10%;
-	left: 0;
+	left: 15%;
 	width: 70%;
 	height: 80%;
 }
 
+/*//////////////////////////////*/
+/*Directions and hours selectors*/
+/*//////////////////////////////*/
 
 .directions {
 	position: absolute;
@@ -642,11 +707,21 @@ iframe {
 	line-height: 110%; 
 	}
 
+.hours-ad {
+	position: relative;
+	bottom: 24%;
+	line-height: 90%;
+}
+
 .via {
-	/*float: right;*/
+	float: right;
 	width: 15%;
 
 }
+
+/*//////////////////////////////////////////////////////////*/
+/*Footer with social media icons and link to San Antonio Zoo*/
+/*//////////////////////////////////////////////////////////*/
 
 footer {
 	position: absolute;
@@ -660,35 +735,30 @@ footer {
 	margin-bottom: 1%;
 }
 .facebook {
-	/*width: 3%;*/
 	float: left;
 	height: auto;
 	margin-right: 1.5%;
 }
 
 .twitter {
-	/*width: 3%;*/
 	float: left;
 	height: auto;
 	margin-right: 1.75%;
 }
 
 .instagram {
-	/*width: 3%;*/
 	float: left;
 	height: auto;
 	margin-right: 1.5%;
 }
 
 .vine {
-	/*width: 3.2%;*/
 	float: left;
 	height: auto;
 	margin-right: 1%;
 }
 
 .youtube {
-	/*width: 3.2%;*/
 	float: left;
 	height: auto;
 
