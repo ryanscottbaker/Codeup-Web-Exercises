@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>For Loop</title>
+</head>
+<body>
+<script>
+"use strict";
+
+for (var j = 100; j >= 1; j -=5){
+	console.log (j);
+}
+</script>
+
+<script>
+
+	for (var j = 30; j >=1; j--) {
+		if (j % 3 == 0) {
+			console.log (j);
+		}
+	}
+</script>
+<script>
+	console.log ("For loop with continue")
+	for (var j = 30; j >= 1; j--) {
+		if (j % 3 !=0) {
+			continue;
+		}
+		console.log(j);
+	}
+</script>
+<script>
+	var divisor = 393;
+
+	for (var x = 12345678765434; x > 0; x--) {
+		if (x % divisor == 0) {
+			console.log (x);
+			break;
+		}
+	}
+</script>
+</body>
+</html>

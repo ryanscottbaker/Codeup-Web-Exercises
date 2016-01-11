@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Break Continue</title>
+	</head>
+	<body>
+		<!-- do a do while loop to ensure we get a odd -->
+		<!-- var num = Math.floor ((Math.random()*50)=1) -->
+		<script>
+		"use strict"
+		do {
+		var x = Math.floor((Math.random()*50)+1);
+		} while (x%2==0);
+		console.log ("Random odd number to skip is: " ,x);
+		for (var y = 1; y < 50; y=y+2) {
+					if (y==x) {
+		console.log("Yikes! Skipping #" + x)
+		}
+			else {console.log("Here is an odd #" + y);}
+		}
+		</script>
+	</body>
+</html>
