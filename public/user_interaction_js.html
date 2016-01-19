@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+function getName() {
+  var name;
+
+ while(!name) {
+    name = prompt('What is your name?');
+  }
+	
+	return name;
+}
+
+function sayHello(name) {
+	alert("Hey there " + name + " you're looking good today!" );
+}
+
+sayHello(getName());
+
+
+
+function eatPizza() {
+var yes = true;
+var no = false;
+pizza = prompt("Do you like Pizza?");
+
+if(true){
+	console.log ("My Man!")
+	alert("Awesome! Pizza is the best! 'Merica!!!")
+}else if(false){
+	console.log ("What an idiot!")
+	alert("What's the matter with you!")
+}
+
+}
+eatPizza();
+
+
+
+// todo: Ask the user for their name.
+//       Keep asking if an empty input is provided.
+
+// todo: Show an alert message that welcomes the user based on their input.
+
+// todo: Ask the user if they like pizza.
+//       Based on their answer show a creative alert message.
+</script>
+</body>
+</html>

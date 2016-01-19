@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+// Write a function to : Change a string to uppercase
+
+var uCString = "Hello World"; 
+
+function String(){
+	var name = uCString.toUpperCase()
+	alert(name);
+	console.log(name)
+}
+String();
+
+// Concatanate three words 
+
+var sayHello = "Hello " + "there " + "Coder!";
+
+function words(){
+	var phrase = sayHello;
+	alert(phrase);
+	console.log(phrase)
+}
+words();
+
+// Change Fahrenheit to Celsius
+
+function tempInF(){
+	var celsius = prompt("Enter a temperature in degrees Celsius and I will convert it to degrees Fahrenheit!")
+	
+	var cf = celsius * 1.8 + 32;
+		console.log(cf);
+}
+tempInF();
+
+function tempInC(){
+	var fahrenheit = prompt("Enter a temperature in degrees fahrenheit and I will convert it to degrees celsius!")
+	
+	var fc = (fahrenheit - 32) * 5/9;
+		console.log(fc);
+}
+tempInC();
+
+// Change lbs to kg
+
+function poundsKG(){
+	var pounds = prompt("Enter in the number of pounds and I will convert to kilograms!!!")
+
+	var pounds = (pounds / 2.2);
+	console.log (pounds);
+}
+poundsKG();
+
+// Make sure a string is between 5 and 10 characters long
+
+function stringCheck(){
+	var numcount = prompt("Enter a string, I will see if it is between 5 and 10 characters long.").length;
+
+	if ((numcount > 5) && (numcount < 10)){
+		console.log ("This is between 5 and 10 characters!!!")
+	}else{
+           console.log ("String not compliant ");
+         }
+}
+stringCheck()
+
+var vowels = "aeiouAEIOU"
+
+function isVowel(v){
+	if(vowels.indexOf(v)>-1)
+	{
+		console.log("This is a vowel");
+	}	else {
+		console.log("This is a consonant")
+	}
+}
+isVowel("b");
+
+// return (vowels.indexOf(letter))>-1) ? true : false;
+
+// var answer = function (){
+// var answer = promt("please enter a vowel");
+// if (answer === "a" || answer ==="e" || answer === "i" answer === "o" answer === "u"){
+// console.log ("Yep it's a vowel");
+// }else{
+// checkVowel();
+// }
+// }
+// checkVowel();
+// }
+// the answer above is a recursive solution to the vowel problem 
+
+var colors = ["red", "blue", "green", "yellow"];
+var colors = new Array ("red", "blue", "green", "yellow");
+var rand = Math.floor(Math.random() * 10);
+console.log (rand);
+console.log(colors[rand]); 
+
+if(rand < colors.length){
+	console.log (colors[rand]);
+} else {
+	console.log ("This number is not in the array!")
+}
+
+</script>
+</body>
+</html>
