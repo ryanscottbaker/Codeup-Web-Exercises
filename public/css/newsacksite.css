@@ -1,0 +1,93 @@
+html {
+	font-size: 1rem;
+}
+.main {
+	background-image: url("/img/golf.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 700px;
+
+}
+
+img {
+	width: 18%;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+
+
+nav {
+	width: 100%;
+	background: rgba(0, 0, 0, 0.3) !important;
+	border-color: transparent !important;
+}
+
+ul,
+li {
+	/*float: none;
+	position: relative;
+	left: 5%;*/
+	max-width: 100%;
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: white !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #2196F3 !important;
+}
+
+ul.nav li.active a {
+    color: #2196F3 !important;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+}
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+
