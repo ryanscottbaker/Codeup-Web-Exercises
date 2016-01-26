@@ -18,19 +18,15 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 		<div class="redtext codeup">Red Text</div>
 
-<script src="/js/jquery.min.js">
-</script>
+<script src="/js/jquery.min.js"></script>
 <script>
+	"use strict"
 	$(document).ready(function() {
-    alert( 'The DOM has finished loading!' );
-    alert($('#heading').html());
-    $('#heading').css("font-size", "4rem");
-    $('#listy').css("font-size", "4rem");
-    $('.codeup').css('border', 'solid 1px red');
-    $('#codeup').css('border', 'solid 1px red');
-
+		$('h1').css('background-color', 'yellow');
+		$('p').css('background-color', 'yellow');
+		$('li').css('background-color', 'yellow');
+		alert($('h1').html());
 });
-
 </script>
 </body>
 </html>
