@@ -33,11 +33,13 @@
         var marker = new google.maps.Marker({
         position: results[0].geometry.location,
         icon:'/img/taco.png',
+        animation: google.maps.Animation.DROP,
         map: map
     });
 
+
         var infowindow = new google.maps.InfoWindow({
-        content: "Torchy's, quite simply the best Tacos in the World"
+        content: "Torchy's, quite simply the best Tacos in the World. Try the Wrangler MMM!!!" 
         });
 
         // Open the window using our map and marker
