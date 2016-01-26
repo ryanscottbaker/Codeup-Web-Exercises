@@ -4,8 +4,8 @@
 	<title>J Query</title>
 </head>
 <body>
-<h1 id="heading">Hello There!</h1>
-<p class= "paragraph">Here is a paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+<h1 id="codeup">Hello There!</h1>
+<p class= "paragraph codeup">Here is a paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -16,16 +16,19 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<li>Second Item</li>
 	</ul>
 
-		<div class="redtext">Red Text</div>
+		<div class="redtext codeup">Red Text</div>
 
 <script src="/js/jquery.min.js">
 </script>
 <script>
 	$(document).ready(function() {
     alert( 'The DOM has finished loading!' );
-    alert($("#heading").html());
+    alert($('#heading').html());
     $('#heading').css("font-size", "4rem");
     $('#listy').css("font-size", "4rem");
+    $('.codeup').css('border', 'solid 1px red');
+    $('#codeup').css('border', 'solid 1px red');
+
 });
 
 </script>
