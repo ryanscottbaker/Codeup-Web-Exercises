@@ -63,6 +63,34 @@
 		</dd>
 	</div>
 
+	<div class="parks">
+		<h3>National Parks</h3>
+		<ul>
+			<li>Arches</li>
+			<li>Badlands</li>
+			<li>Carlsbad Caverns</li>
+			<li>Denali</li>
+			<li>Everglades</li>
+		</ul>
+		
+		<h3>State Parks of Texas</h3>
+		<ul>	
+			<li>Abilene</li>
+			<li>Big Bend</li>
+			<li>Choke Canyon</li>
+			<li>Davis Mountains</li>
+			<li>Enchanted Rock</li>
+		</ul>
+
+		<h3>State Parks of Utah</h3>
+		<ul>	
+			<li>Zion</li>
+			<li>Moab</li>
+			<li>Uintahs</li>
+			<li>Pineview</li>
+			<li>Lake Powell</li>
+		</ul>
+
 
 <script src="/js/jquery.min.js"></script>
 <script>
@@ -73,6 +101,16 @@ $(document).ready(function(){
 	$("#faqs").click(function(){
 
 	$("dd").toggleClass("invisible");
+});
+});
+
+$('ul').each(function(index) {
+	$(this).children('li').first().css('font-weight', 'bolder').css('color','red');
+});
+
+$('li').each(function(index) {
+	$(this).parent('ul').click(function(){
+	$('ul').toggleClass("invisible");
 });
 });
 </script>
