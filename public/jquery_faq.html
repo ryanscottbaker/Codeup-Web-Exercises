@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FAQ</title>
+	<style type="text/css">
+	.invisible{
+		display: none;
+	}
+	</style>
+</head>
+<body>
+	<div>
+		<a href="#" id="faqs">Click to Toggle On FAQS</a>
+		
+		<dd class="fact invisible">1.    As you may know, the National Park Service sets aside land for 
+		all of us to enjoy in its natural state. How much, you ask? 51 million acres! 
+		About the size of Kansas.</dd>
+
+		<dd class="fact invisible">2.    The world’s first national park, Yellowstone, was created in 1872 by 
+		President Ulysses S. Grant. Its caretakers – the cavalry.
+		</dd>
+
+		
+		<dd class="fact invisible">3.    Wind Cave National Park is the first cave to be named a national park 
+		in the world. In addition to its length (currently sixth longest in the world), 
+		Wind Cave is known for its calcite formations known as “boxwork.” About 95% of the world’s 
+		boxwork is found in Wind Cave.
+		</dd>
+
+		<dd class="fact invisible">4.    The smallest national park is Hot Springs National Park in Arkansas coming 
+		in at about 5,500 acres. The biggest? Wrangell – St. Elias National Park in Alaska 
+		has an area of over 8.3 million acres and is larger than each of the nine smallest states.
+		</dd>
+
+		<dd class="fact invisible">5.    Sometimes national parks and national monuments are confused. National parks 
+		are chosen for their natural beauty, unique geological features, and unusual 
+		ecosystems. National monuments are chosen for their historical or archeological significance.
+		</dd>
+		
+		<dd class="fact invisible">6.    Only one state in the country is not lucky enough to currently have either 
+		a national park or national monument. It is actually the country’s first state, Delaware. 
+		Poor Delaware.
+		</dd>
+
+		<dd class="fact invisible">7.    Death Valley National Park, which has the lowest elevation in the U.S. at 282 feet 
+		below sea level, is only 76 miles from Mount Whitney, the highest point in the contiguous U.S. at 14,505 feet.
+		</dd>
+		
+		<dd class="fact invisible">8.    The Grand Canyon is both a record of history and source of mystery. The Colorado River 
+		running through the canyon cuts through metamorphic rock called schist, which is about 1.75 
+		billion years old. However the beginnings of the canyon are much debated by scientists. 
+		Did the Colorado River carve the whole canyon or was there already an ancient gorge waiting 
+		for the new river over 5 million years ago?
+		</dd>
+
+		<dd class="fact invisible">9.    Crater Lake, the U.S.’ deepest lake and seventh deepest in the world, took 250 years 
+		of rain and snow accumulation to reach its current water level.
+		</dd>
+		
+		<dd class="fact invisible">10.     The Yellowstone Caldera, in Yellowstone National Park, is a super volcano that is 
+		responsible for three of the world’s six biggest volcano eruptions. It is on pace to blow 
+		about 100,000 years from now. So come see it while you still can!
+		</dd>
+	</div>
+
+
+<script src="/js/jquery.min.js"></script>
+<script>
+"use strict"
+
+$(document).ready(function(){
+	
+	$("#faqs").click(function(){
+
+	$("dd").toggleClass("invisible");
+});
+});
+</script>
+</body>
+</html>

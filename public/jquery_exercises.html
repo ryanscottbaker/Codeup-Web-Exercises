@@ -22,7 +22,23 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <script>
 	"use strict"
 	$(document).ready(function() {
-		$('h1, p, li').css('background-color', 'yellow');
+		$('h1').click(
+			function(){
+				$('h1').css('background-color', 'salmon');
+			}),
+		$('p').dblclick(
+			function(){
+				$('p').css('font-size', '18px');
+			}),
+		$('li').hover(
+			function() {
+            $(this).css('background-color', 'red');
+        },
+        	function() {
+            $(this).css('background-color', 'white');
+        }
+    );
+
 });
 </script>
 </body>

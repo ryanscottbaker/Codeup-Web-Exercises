@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="css/konami.css">
+</head>
+<body>
+
+	<div class="contra">
+		<div class="codebox">
+		    <img id="status" src="https://i.giphy.com/KB00R7w0dr7ig.gif" />
+		    <h1>Konami Code!</h1>
+		</div>
+	</div>
+		<script src="/js/jquery.min.js"></script>
+		<script>
+			"use strict"
+		var keys = [];
+		var i = 0;
+
+		var img = $('#status');
+		var msg = $('#msg');
+
+		var success = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65, 13];
+		var successString = success.join('-');
+
+		function reset() {
+			keys = [];
+		  i = 0;
+		}
+
+		function codeEntered() {
+			return (success.length === keys.length) && (successString === keys.join('-'));
+		}
+
+		$(document).keyup(function(event) {
+			var keyCodeIndex = i++ % success.length;
+		  
+		  console.log(`inserting at ${keyCodeIndex}`)
+		  keys[keyCodeIndex] = event.keyCode;
+		  
+		  if(codeEntered()) {
+		  	img.attr('src','https://i.giphy.com/uEJyHSTrdLXdS.gif');
+		  	alert('You have added 30 lives!');
+		    reset();
+		  } else if(event.keyCode === 13) {
+		  	img.attr('src', 'https://i.giphy.com/klKnaQh8Q9Wog.gif');
+		    alert('You died!');
+		  	reset();
+		    console.log('Nope');
+		  }
+		  console.log(keys);
+		});
+		</script>
+</body>
+</html>

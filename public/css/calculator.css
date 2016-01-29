@@ -1,0 +1,51 @@
+button {
+	background-color: lightblue;
+	float: left;
+	width: 5%;
+	/*box-shadow: 2px 2px 2px;*/
+}
+.display {
+	background-color: #7BA7BB;
+	width: 280px;
+	height: 20px;
+	float: left;
+	position: relative;
+	left: 555px;
+	top: 77px;
+	box-shadow: 2px 2px 2px;
+}
+
+.clear {
+	background-color: salmon;
+	position: relative;
+	top: 165px;
+	left: 840px;
+}
+
+.calckeys {
+	position: relative;
+	left: 19.3%;
+}
+
+.row1 {
+	position: relative;
+	top: 100px;
+}
+
+.row2 {
+	position: relative;
+	top: 122px;
+	right: 285px;
+}
+
+.row3 {
+	position: relative;
+	top: 144px;
+	right: 569.5px;
+}
+
+.row4 {
+	position: relative;
+	top: 165px;
+	right: 854.5px;
+}
