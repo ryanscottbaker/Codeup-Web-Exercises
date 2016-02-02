@@ -2,8 +2,8 @@
 	position: relative;
 	top: 200px;
 	background-color: #6FBBF7;
-	width: 215px;
-	height: 340px;
+	width: 200px;
+	height: 325px;
 	padding: 2%;
 	border-radius: 10%;
 	box-shadow: 2px 2px 2px;
@@ -13,7 +13,7 @@ input {
 	text-align: right;
 	position: relative;
 	top: 2px;
-	left: 2px;
+	right: 2px;
 }
 
 .clear {
@@ -21,13 +21,12 @@ input {
 	background-color: salmon;
 	position: relative;
 	top: 12px;
-	left: 117px;
+	left: 107px;
 }
 
 .calckeys {
 	position: relative;
 	top: 20px;
-	left: 7px;
 }
 
 .row1,
