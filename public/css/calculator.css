@@ -1,10 +1,11 @@
-.container {
+.wrapper {
 	position: relative;
 	top: 200px;
+  left: 43%;
 	background-color: #6FBBF7;
 	width: 215px;
 	height: 340px;
-	padding: 2%;
+	padding: 30px;
 	border-radius: 10%;
 	box-shadow: 2px 2px 2px;
 }
@@ -34,5 +35,5 @@ input {
 .row2,
 .row3,
 .row4 {
-	margin-bottom: 10%;
+	margin-bottom: 20px;
 }
