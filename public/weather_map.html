@@ -14,15 +14,32 @@
 				<h2>3 Day Weather</h2>
 	 	        <h2 id="city"></h2>
 	 	        <div id ="weather"></div>
+	 	        	<form>
+						Enter a Longitude: <input id="lon" type="text" name="Longitude"></input>
+						Enter a Latitude:  <input id="lat" type="text" name="Latitude"></input>
+						<button type="button" class="btn btn-primary">Submit</button>
+					</form>
 	 	    </div>
 		</div>
 	</div>
+	
+	<div clas="container">
+		<div class="container-fluid">
+			<div id="map-canvas"></div>
+		</div>
+	</div>	    
+
+
+
 
 
 <script type="text/javascript">
 
 $(document).ready(function() {
   "use strict"
+
+  var longitude = "";
+  var latitude = "";
 
 
   $.get("http://api.openweathermap.org/data/2.5/forecast/daily", {
@@ -34,14 +51,13 @@ $(document).ready(function() {
   }).done(function(data) {
 	console.log(data);
 	$('#city').html(data.city.name);
-		// displayWeather(data);
 	data.list.forEach(function(data) {
-	displayWeather(data)
+	postWeather(data)
 	})
 });
 
 
-	var displayWeather = function(data) {
+	var postWeather = function(data) {
 		console.log(data);
 		var icon = data.weather[0].icon	
 		var lowTemp = "Low: "+ data.temp.min;
@@ -57,7 +73,43 @@ $(document).ready(function() {
 
 });
 
+  $(function() {
+    $(".btn").click(function() {
+     longitude = $('#lon').val();
+      latitude = $('#lat').val();
+      console.log(longitude); 
+      console.log(latitude);
+    });
+  });
+
+  
 
 </script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6kudguU8uh7gopFpNs_2F7NlbWjgM4TM"></script>
+
+<script type="text/javascript">
+    
+var myLatlng = new google.maps.LatLng(29.4167,-98.5000);
+var mapOptions = {
+  zoom: 3,
+  center: myLatlng,
+  mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+
+var marker = new google.maps.Marker({
+    position: myLatlng,
+    title:"Howdy from San Antonio!",
+    animation: google.maps.Animation.DROP,
+});
+
+marker.setMap(map);
+
+
+
+
+</script>
+
 </body>
 </html>
