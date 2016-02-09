@@ -100,7 +100,7 @@ $(document).ready(function(){
 	
 	$("#faqs").click(function(){
 
-	$("dd").toggleClass("invisible");
+	$("dd").slideToggle(300);
 });
 });
 
@@ -110,7 +110,7 @@ $('ul').each(function(index) {
 
 $('li').each(function(index) {
 	$(this).parent('ul').click(function(){
-	$('ul').toggleClass("invisible");
+	$('ul').slideDown(1000);
 });
 });
 </script>
