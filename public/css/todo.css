@@ -1,0 +1,32 @@
+.container-fluid{
+	position: absolute;
+	left: 28%;
+	border: 1px solid #979797;
+	border-radius: 30px;
+	box-shadow: 1px 1px 1px grey;
+	margin-top: 5px;
+}
+h1 {
+	font-weight: lighter;
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	left: 37%;
+
+}
+
+tr,
+td,
+input,
+button	{
+	font-weight: lighter;
+	font-family: 'Raleway', sans-serif;
+}
+
+.listtext {
+	text-align: center;
+}
+
+#display {
+	text-align: center;
+}
+
