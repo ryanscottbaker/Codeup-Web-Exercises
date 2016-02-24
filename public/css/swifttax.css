@@ -1,41 +1,54 @@
-html {
-	font-weight: lighter;
-}
+
+/*////////////*/
+/*Nav Settings*/
+/*///////////*/
 
 .navlink {
 	font-size: 22px;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
-
-.swifty {
-	margin: 0 auto;
-	margin-top: 2%;
-	
-}
-
-.flow-text{
-	font-weight: lighter;
-}
-
-.get-started {
-	margin-top: 1%;
-}
-
-
-.input-field label {
-	position: absolute;
-    font-size: 1.7rem;
-    cursor: text;
-    transition: .2s ease-out;
-}
-
 
 nav{
 	background: #42A5F5;
 }
+
+/*////////////////////////////////////////////////////////////*/
+/*Animations for Swift Tax Form and Getting Started Button Div*/
+/*////////////////////////////////////////////////////////////*/
+
+.swifttaxform {
+	margin: 0 auto;
+	margin-top: 2%;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: .1s;
+    -webkit-animation-iteration-count: 1;
+	
+}
+
+.get-started {
+	margin-top: 1%;
+   -webkit-animation-duration: 2.3s;
+   -webkit-animation-delay: 2s;
+   -webkit-animation-iteration-count: 1;
+}
+
+/*/////////////////////////////////////////////////*/
+/*Responsive Flow Text Settings for entire project */
+/*/////////////////////////////////////////////////*/
+
+.flow-text{
+	line-height: 1.0;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    color: rgba(0,0,0,0.87);
+}
+
+/*///////////////////////////////////////////*/
+/*Button Colors and Color changes for project*/
+/*///////////////////////////////////////////*/
 
 .btn, .btn-large {
     text-decoration: none;
@@ -50,6 +63,17 @@ nav{
 
 .btn:hover, .btn-large:hover {
     background-color: #7DFF5F;
+}
+
+/*/////////////////////////*/
+/*Input Settings for Modals*/
+/*/////////////////////////*/
+
+.input-field label {
+	position: absolute;
+    font-size: 1.7rem;
+    cursor: text;
+    transition: .2s ease-out;
 }
 
 element.style {
@@ -76,7 +100,6 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     outline: none;
     height: 3rem;
     width: 100%;
-    font-size: 1rem;
     margin: 0 0 15px 0;
     padding: 0;
     box-shadow: none;
@@ -87,8 +110,14 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     font-size: 1.2rem;
 }
 
+/*//////////////////////////////////////////////////////////////*/
+/*Positiong to first modal, may need to add to all modal classes*/
+/*//////////////////////////////////////////////////////////////*/
+
 .yourName {
 	position: relative;
 	top: 4rem;
 }
+
+
 

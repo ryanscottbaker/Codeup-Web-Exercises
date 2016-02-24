@@ -11,10 +11,18 @@ $(document).ready(function(){
   });
  });
 
-$("#modal2").hide();
-	$("modal2").click(function() {
-  alert( "Handler for .click() called." );
+// Kickoff button makes swift tax div, form and button disappear
+
+	$(".kickoff").click(function(){
+	$(".main").addClass('animated zoomOut');
+
 });
+
+	$("#modal2").hide();
+	$("#modal1NextBtn").click(function(){
+  		$("#modal1").hide();
+  		$("#modal2").show();
+	});
       
 
 
