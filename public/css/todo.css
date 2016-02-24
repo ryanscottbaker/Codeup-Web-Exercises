@@ -1,17 +1,22 @@
-.container-fluid{
-	position: absolute;
-	left: 28%;
-	border: 1px solid #979797;
-	border-radius: 30px;
-	box-shadow: 1px 1px 1px grey;
-	margin-top: 5px;
+.container{
+	position: relative;
+	left: 2%;
+	width: 45%;
 }
+
 h1 {
 	font-weight: lighter;
 	font-family: 'Raleway', sans-serif;
 	position: relative;
-	left: 37%;
+	left: 30%;
+}
 
+th {
+	display: none;
+}
+
+td button {
+	margin: 1px;
 }
 
 tr,
@@ -22,11 +27,31 @@ button	{
 	font-family: 'Raleway', sans-serif;
 }
 
-.listtext {
-	text-align: center;
+.btn-danger{
+	background-color: #FF5252;
+	border-color: #FF5252;
 }
 
-#display {
-	text-align: center;
+.btn-primary{
+	background-color: #00B7B7;
+	border-color: #00B7B7;
+
 }
+
+.btn-new-item {
+	position: relative;
+	left: .75%;
+}
+
+.dropdown-toggle {
+	position: relative;
+	left: 1.5%;
+}
+
+.dateclass,
+.priority,
+.content {
+	width: 148px;
+}
+
 

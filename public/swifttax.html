@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head profile="http:codeup.dev/swifttax.html">
+<link rel="icon" href="/img/mini.png" type="image/png"> 
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+<link rel="stylesheet" type="text/css" href="css/swifttax.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8">
+<title>
+  Swift Tax</title>
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo"><img id="logo" src="/img/logo.png"></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="navlink" href="">Home</a></li>
+          <li><a class="navlink" href="">About</a></li>
+        </ul>
+      </div>
+  </div>
+
+  <div class="container main">
+    <p class="flow-text center get-started">Your fastest tax return is only clicks away.
+      <a class="waves-effect waves-light btn modal-trigger kickoff" href="#modal1">Get Started</a>
+    </p>
+    <img class="img-responsive swifty" src="/img/swifty.png">
+  </div>
+
+<!-- ///////////////////////////////////////////// -->
+<!-- Modal Structure, this is the head of the Modal-->
+<!-- ///////////////////////////////////////////// -->
+
+<div id="modal1" class="modal modal-fixed">
+    <div class="modal-content">
+      <h4 class="flow-text center">And away we go!</h4>
+      <p class="flow-text center">Let's get started by getting to know you.</p>
+      <p class="flow-text center">First, tell us a little about yourself.</p>
+    </div>
+
+<!-- ////////////// -->
+<!-- //Modal Body// -->
+<!-- ////////////// -->
+
+    <div class="yourName row">
+      <p class="flow-text center">What is your name?</p>
+      <div class="col-sm-4 col-sm-offset-4">
+        <input type="text" class="form-control" id="inputFirstName">
+        </input>
+      </div>
+      
+      <br><br><br>
+      <br><br><br>
+
+      <a href="#modal2" class="next-button col-sm-2 col-sm-offset-9 modal-action modal-close waves-effect waves-green btn-flat btn">Next</a>
+  </div>
+</div>
+
+<!-- //////////////// -->
+<!-- Modal 1 Finished -->
+<!-- //////////////// -->
+
+
+<!--//////// -->
+<!-- Modal 2 -->
+<!-- /////// -->
+
+
+  <div id="modal2" class="modal-action modal-fixed">
+    <div class="modal-content">
+      <h4 class="flow-text center">Thanks {name}! You’re just a few short steps away from completing your 2015 Tax Return.
+      </h4>
+    </div>
+
+      <br><br><br>
+      <br><br><br>
+
+      <a href="#modal1" class="next-button col-sm-2 col-sm-offset-9 modal-action modal-close waves-effect waves-green btn-flat btn">Back</a>
+      
+
+      <a href="#modal3" class="next-button col-sm-2 col-sm-offset-9 modal-action modal-close waves-effect waves-green btn-flat btn">Next</a>
+
+  </div>
+</div>
+  
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+<script src="js/swifttax.js"></script>
+
+</body>
+</html>

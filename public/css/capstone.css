@@ -1,0 +1,25 @@
+html {
+	font-weight: lighter;
+}
+
+nav{
+	background: #42A5F5;
+}
+
+.responsive-img {
+	opacity: 0.5;
+}
+
+.parallax-container2 {
+	height: 700px;
+	background: -webkit-linear-gradient(top,#42A5F5 0,#fff 100%)
+}
+
+.parallax-container2 {
+	height: 700px;
+	background: -webkit-linear-gradient(top,#42A5F5 0,#fff 100%)
+}
+
+/*
+<!-- <head profile="http:codeup.dev/capstone.html">
+<link rel="icon" href="/img/tax.png" type="image/png" />  -->*/

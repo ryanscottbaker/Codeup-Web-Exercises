@@ -1,0 +1,94 @@
+html {
+	font-weight: lighter;
+}
+
+.navlink {
+	font-size: 22px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.swifty {
+	margin: 0 auto;
+	margin-top: 2%;
+	
+}
+
+.flow-text{
+	font-weight: lighter;
+}
+
+.get-started {
+	margin-top: 1%;
+}
+
+
+.input-field label {
+	position: absolute;
+    font-size: 1.7rem;
+    cursor: text;
+    transition: .2s ease-out;
+}
+
+
+nav{
+	background: #42A5F5;
+}
+
+.btn, .btn-large {
+    text-decoration: none;
+    color: #fff;
+    background-color: #42E035;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: #7DFF5F;
+}
+
+element.style {
+}
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border: 1px solid #52A8EC;
+    outline:0;
+    border-color: rgba(82,168,236,.8);
+    box-shadow: 0 1px 1px rgba(0,0,0,.075) inset, 0 0 8px 
+    rgba(82,168,236,.6);
+    border-radius: 6px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.2rem;
+
+}
+
+element.style {
+}
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    background-color: transparent;
+    border: 1px solid #42A5F5;
+    border-radius: 6px;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 0 15px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all .3s;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+.yourName {
+	position: relative;
+	top: 4rem;
+}
+
